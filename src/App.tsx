@@ -11,6 +11,9 @@ import { AboutPage } from './components/AboutPage';
 import { ContactPage } from './components/ContactPage';
 import { Toaster } from './components/ui/sonner';
 
+// If you want to include Feedback component separately, import it here
+import Feedback from "./components/Feedback";
+
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
@@ -48,6 +51,8 @@ export default function App() {
       <Header currentPage={currentPage} onNavigate={handleNavigate} />
       <main>
         {renderPage()}
+        {/* Optionally include Feedback component here if you want it visible on all pages */}
+        {/* <Feedback /> */}
       </main>
       <Toaster 
         position="top-right"
