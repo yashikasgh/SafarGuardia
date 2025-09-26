@@ -31,7 +31,7 @@ export function FeedbackPage() {
       message: 'Poor lighting near platform 3 after 11 PM. Very unsafe for women traveling alone. Request immediate attention.',
       timestamp: '2024-01-15 23:30',
       upvotes: 15,
-      downvotes: 2,
+      downvotes: 4,
       priority: 'high',
       status: 'active'
     },
