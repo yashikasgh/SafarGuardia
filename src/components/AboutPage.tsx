@@ -42,7 +42,7 @@ export function AboutPage() {
         <section className="text-center mb-16">
           <div className="space-y-6">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900">
-              About <span className="text-pink-600">SafeRail Women</span>
+              About <span className="text-pink-600">Safar Guardia</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Revolutionizing women's safety in Mumbai local trains through innovative technology, 
@@ -123,10 +123,10 @@ export function AboutPage() {
             <CardContent className="py-12">
               <div className="grid lg:grid-cols-2 gap-8 items-center">
                 <div className="space-y-6">
-                  <h2 className="text-3xl font-bold">Smart India Hackathon 2024</h2>
+                  <h2 className="text-3xl font-bold">Safar Guardia</h2>
                   <p className="text-lg opacity-90 leading-relaxed">
-                    SafeRail Women was born from the Smart India Hackathon, addressing the critical 
-                    challenge of women's safety in public transportation. Our solution combines 
+                    Safar Guardia Women was developed to address the critical 
+                    challenges of women's safety in public transportation. Our solution combines 
                     real-world needs with cutting-edge technology to create meaningful impact.
                   </p>
                   <div className="space-y-2">
