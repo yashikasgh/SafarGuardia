@@ -29,9 +29,9 @@ export function AboutPage() {
 
   const team = [
     { name: 'Yashika Singh', role: 'Lead Developer', expertise: 'Full-Stack Development' },
-    { name: 'Palak Sharma', role: 'Backend Developer', expertise: 'Databases' },
+    { name: 'Palak Sharma', role: 'Backend Developer', expertise: 'Database & Authentication' },
     { name: 'Tanvi Ragesh', role: 'ML Developer', expertise: 'AI/ML for Prediction and Analysis' },
-    { name: 'Ambali Gajinkar', role: 'Frontend Developer', expertise: 'React' },
+    { name: 'Ambali Gajinkar', role: 'Frontend Developer', expertise: 'React, Tailwind and Bootstrap' },
 
   ];
 
