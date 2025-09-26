@@ -172,7 +172,7 @@ export function ContactPage() {
             <Card>
               <CardHeader>
                 <CardTitle>Development Team</CardTitle>
-                <CardDescription>Smart India Hackathon 2024 Project</CardDescription>
+                <CardDescription>Smart India Hackathon 2025 Project</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="grid md:grid-cols-2 gap-6">
@@ -204,7 +204,7 @@ export function ContactPage() {
                       <Phone className="h-5 w-5 text-orange-600 mt-1" />
                       <div>
                         <div className="font-medium">Support Hours</div>
-                        <div className="text-gray-600">9 AM - 6 PM (Prototype Phase)</div>
+                        <div className="text-gray-600">24X7 (Prototype Phase)</div>
                       </div>
                     </div>
                   </div>
@@ -280,31 +280,7 @@ export function ContactPage() {
               </CardContent>
             </Card>
 
-            {/* Social & Community */}
-            <Card className="bg-gradient-to-r from-pink-500 to-purple-500 text-white">
-              <CardHeader>
-                <CardTitle>Join Our Community</CardTitle>
-                <CardDescription className="text-white/90">
-                  Connect with other women travelers and stay updated
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <p className="text-sm opacity-90">
-                    Follow our journey and get safety tips, updates, and community stories.
-                  </p>
-                </div>
-                <div className="grid grid-cols-2 gap-3">
-                  <Button variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
-                    Twitter
-                  </Button>
-                  <Button variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
-                    Instagram
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
+        
             {/* Project Status */}
             <Card className="bg-blue-50 border-blue-200">
               <CardHeader>
@@ -312,7 +288,7 @@ export function ContactPage() {
               </CardHeader>
               <CardContent className="text-blue-700 space-y-2 text-sm">
                 <p>🚧 <strong>Current Phase:</strong> Prototype Development</p>
-                <p>🎯 <strong>Target:</strong> Smart India Hackathon 2024</p>
+                <p>🎯 <strong>Target:</strong> Smart India Hackathon 2025</p>
                 <p>📱 <strong>Platform:</strong> Web App (Mobile Coming Soon)</p>
                 <p>🔄 <strong>Status:</strong> Active Development</p>
               </CardContent>
