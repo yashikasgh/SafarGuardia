@@ -59,7 +59,7 @@ export function Header({
           <div className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-pink-600" />
             <h1 className="text-xl font-bold text-pink-700">
-              SafeRail Women
+              Safar Guardia
             </h1>
           </div>
 
