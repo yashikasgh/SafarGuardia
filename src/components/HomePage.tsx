@@ -65,13 +65,6 @@ export function HomePage({ onNavigate }: HomePageProps) {
                 >
                   Get Started
                 </Button>
-                <Button
-                  onClick={() => onNavigate('login')}
-                  variant="outline"
-                  className="border-pink-600 text-pink-700 hover:bg-pink-50 px-8 py-4 text-lg"
-                >
-                  Sign In
-                </Button>
               </div>
             </div>
             
