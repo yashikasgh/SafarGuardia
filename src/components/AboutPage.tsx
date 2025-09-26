@@ -28,10 +28,13 @@ export function AboutPage() {
   ];
 
   const team = [
-    { name: 'Priya Sharma', role: 'Lead Developer', expertise: 'AI & Machine Learning' },
-    { name: 'Anita Desai', role: 'UX Designer', expertise: 'User Experience & Safety Research' },
-    { name: 'Meera Patel', role: 'Backend Engineer', expertise: 'Security & Data Protection' },
-    { name: 'Kavya Singh', role: 'Mobile Developer', expertise: 'Emergency Systems & APIs' }
+    { name: 'Yashika Singh', role: 'Lead Developer', expertise: 'Full-Stack Development' },
+    { name: 'Palak Sharma', role: 'Backend Developer', expertise: 'Databases' },
+    { name: 'Tanvi Ragesh', role: 'ML Developer', expertise: 'AI/ML for Prediction and Analysis' },
+    { name: 'Ambali Gajinkar', role: 'Frontend Developer', expertise: 'React' },
+    { name: 'Aditi Garud', role: 'Frontend Developer', expertise: 'Tailwind and Bootstrap' }
+    { name: 'Aayesha Shaikh', role: 'UI/UX Designer', expertise: 'UI designs' },
+
   ];
 
   return (
