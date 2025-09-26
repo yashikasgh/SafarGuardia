@@ -320,29 +320,7 @@ export function ContactPage() {
           </div>
         </div>
 
-        {/* Additional Information */}
-        <section className="mt-16">
-          <Card className="bg-yellow-50 border-yellow-200">
-            <CardContent className="py-8">
-              <div className="text-center space-y-4">
-                <h3 className="text-2xl font-bold text-yellow-800">Important Notice</h3>
-                <p className="text-yellow-700 max-w-4xl mx-auto">
-                  SafeRail Women is currently a prototype developed for the Smart India Hackathon 2024. 
-                  While we demonstrate real safety features and innovations, some functionalities are simulated 
-                  for demonstration purposes. In a real deployment, all emergency services would be fully integrated 
-                  with actual police and railway authorities.
-                </p>
-                <div className="flex justify-center">
-                  <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1620654462660-e5a8792eabad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb2xpY2UlMjBzdGF0aW9uJTIwc2FmZXR5JTIwc2VjdXJpdHl8ZW58MXx8fHwxNzU4NzI4OTE0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                    alt="Police Station"
-                    className="w-32 h-20 object-cover rounded-lg"
-                  />
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
+  
       </div>
     </div>
   );
