@@ -32,8 +32,6 @@ export function AboutPage() {
     { name: 'Palak Sharma', role: 'Backend Developer', expertise: 'Databases' },
     { name: 'Tanvi Ragesh', role: 'ML Developer', expertise: 'AI/ML for Prediction and Analysis' },
     { name: 'Ambali Gajinkar', role: 'Frontend Developer', expertise: 'React' },
-    { name: 'Aditi Garud', role: 'Frontend Developer', expertise: 'Tailwind and Bootstrap' }
-    { name: 'Aayesha Shaikh', role: 'UI/UX Designer', expertise: 'UI designs' },
 
   ];
 
