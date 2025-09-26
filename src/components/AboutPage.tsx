@@ -125,7 +125,7 @@ export function AboutPage() {
                 <div className="space-y-6">
                   <h2 className="text-3xl font-bold">Safar Guardia</h2>
                   <p className="text-lg opacity-90 leading-relaxed">
-                    Safar Guardia Women was developed to address the critical 
+                    Safar Guardia was developed to address the critical 
                     challenges of women's safety in public transportation. Our solution combines 
                     real-world needs with cutting-edge technology to create meaningful impact.
                   </p>
