@@ -70,7 +70,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             
             <div className="relative">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1710693250794-f0ef6d41aea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHNhZmV0eSUyMHNlY3VyaXR5JTIwcGluayUyMGZsb3dlcnN8ZW58MXx8fHwxNzU4NzI4OTA2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://cdn.dribbble.com/userupload/23937980/file/original-86b0062d66896540ac1b7e1c24b38df8.png?resize=752x&vertical=center"
                 alt="Women's Safety"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
