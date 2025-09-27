@@ -30,9 +30,9 @@ interface FieldErrors {
 
 export function ProfilePage() {
   const [profile, setProfile] = useState<UserProfile>({
-    fullName: 'Priya Sharma',
-    username: 'priya_sharma123',
-    email: 'priya.sharma@gmail.com',
+    fullName: 'Yashika Singh',
+    username: 'sgh.yashika455',
+    email: 'yashika.singh@gmail.com',
     phoneNumber: '+91 98765 43210',
     isFemale: true,
     createdAt: '2024-01-15T10:30:00Z',
