@@ -12,7 +12,6 @@ A specialized web-based safety prototype designed for women commuters in Mumbai.
 ## 🎯 Project Objective
 
 The main objective is to provide women with predictive safety data. By knowing station safety indices and using AI-simulated compartment analysis, women can make informed travel decisions and instantly connect with authorities when needed.
----
 
 ## 🛠 Technologies Used
 
@@ -46,16 +45,15 @@ The main objective is to provide women with predictive safety data. By knowing s
 ## 🗂 Project Structure
 
 ```text
-/women-safety-app
-│── animation.html      # Splash screen & Train animations
-│── login.html          # Aadhaar-based secure login
-│── signup.html         # User registration
-│── index.html          # Main feature dashboard
-│── crowd.html          # Route & Crowd Prediction index
-│── compartment.html    # AI Analysis simulation
-│── feedback.html       # Community portal & Report generator
-│── css/style.css       # Global aesthetics
-│── js/script.js        # Core logic & Mock data handling
+/
+├── src/                # React components (Dashboard, ProfilePage)
+├── main.py             # Flask API Entry Point (Port 5001)
+├── index.html
+├── connect_mongo.py    # MongoDB connection & logging
+├── mongo_events.py     # Safety event handling
+├── vite.config.ts      # Frontend configuration
+├── package.json        # Node.js dependencies
+└── README.md           # Documentation
 
 ```
 
@@ -68,21 +66,30 @@ The main objective is to provide women with predictive safety data. By knowing s
 git clone https://github.com/your-username/SafarGuardia.git
 
 ```
-2. **Running the code:**
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-
 ---
+2. **Frontend Setup:**
+
+    Run `npm i` to install the dependencies.
+
+    Run `npm run dev` to start the development server.
+---
+
+3. **Backend & API Setup:**
+   * *Ensure you have Python installed, then run:*
+```bash
+# Install dependencies
+pip install flask pandas pymongo ultralytics
+
+# Start the Flask server
+python main.py
+```
+*The API will run on ```http://127.0.0.1:5001.```*
 
 ## 🚀 Future Enhancements
 
-* **Real-time CCTV Integration:** Connecting with Railway API for live feed analysis.
-* **Panic Button Hardware:** Bluetooth integration with physical wearable devices.
-* **Government Dashboard:** A dedicated portal for Railway Police (RPF) to monitor real-time complaints.
-* **Multi-lingual Support:** Marathi and Hindi interface for wider accessibility.
-
+* **Live CCTV Stream Integration: Connecting the YOLO model directly to railway station camera feeds.**
+* **RPF Emergency Dashboard: A dedicated interface for Railway Police to track YOLO-triggered alerts.**
+* **Multilingual Support: Localizing the platform in Marathi and Hindi.**
 ---
 
 ## 📄 Conclusion
