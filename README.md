@@ -88,9 +88,7 @@ git clone https://github.com/your-username/SafarGuardia.git
 
 ## 📄 Conclusion
 
-**SafarGuardia** demonstrates how simple frontend technologies combined with smart logic can solve critical safety issues. By focusing on the unique ecosystem of Mumbai Locals, it provides a tailored solution for the "Lifeline of Mumbai."
+**SafarGuardia** redefines women’s safety by shifting the focus from reactive emergency alerts to proactive risk prevention. By leveraging crowd analytics and community insights, the platform identifies potential threats before they escalate. This prototype serves as a scalable bridge between commuters and Railway authorities (RPF), proving that thoughtful technology can eliminate fear and ensure every woman travels with confidence in the Mumbai Local network.
 
 ---
-👩‍💻 Team SafarGuardia
-This project was developed for the Smart India Hackathon 2025.
 
