@@ -11,7 +11,7 @@ A specialized web-based safety prototype designed for women commuters in Mumbai.
 
 ## 🎯 Project Objective
 
-The main objective is to provide women with **predictive safety data**—allowing them to know which stations are safe to deboard and ensuring they are never truly alone in a compartment through AI-simulated constable requests.
+The main objective is to provide women with **predictive safety data** allowing them to know which stations are safe to deboard and ensuring they are never truly alone in a compartment through AI-simulated constable requests.
 
 ---
 
@@ -69,16 +69,11 @@ The main objective is to provide women with **predictive safety data**—allowin
 git clone https://github.com/your-username/SafarGuardia.git
 
 ```
+2. **Running the code:**
 
+  Run `npm i` to install the dependencies.
 
-
-2. **Open the App:**
-Simply double-click `animation.html` to start the experience.
-3. **Simulation:**
-* Use any 12-digit number for Aadhaar login (Demo only).
-* Navigate through the "Crowd Prediction" to see the color-coded safety logic.
-
-
+  Run `npm run dev` to start the development server.
 
 ---
 
@@ -94,4 +89,8 @@ Simply double-click `animation.html` to start the experience.
 ## 📄 Conclusion
 
 **SafarGuardia** demonstrates how simple frontend technologies combined with smart logic can solve critical safety issues. By focusing on the unique ecosystem of Mumbai Locals, it provides a tailored solution for the "Lifeline of Mumbai."
+
+---
+👩‍💻 Team SafarGuardia
+This project was developed for the Smart India Hackathon 2025.
 
