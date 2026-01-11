@@ -7,22 +7,21 @@ A specialized web-based safety prototype designed for women commuters in Mumbai.
 
 ## 📌 Project Overview
 
-**SafarGuardia** is a frontend prototype developed for the **Smart India Hackathon (SIH)**. Built using **HTML, CSS, React Js and JavaScript**, it addresses the specific security challenges women face during late-night travel in local trains. It combines standard safety tools with innovative features like compartment density analysis and station-wise safety indices.
+**SafarGuardia** is a prototype developed for the Smart India Hackathon (SIH). Built with a modern Vite + React (TypeScript) frontend and a Python/MongoDB backend integration, it addresses specific security challenges like late-night travel and deserted train compartments. It combines standard safety tools with innovative features like compartment density analysis and station-wise safety indices.
 
 ## 🎯 Project Objective
 
-The main objective is to provide women with **predictive safety data** allowing them to know which stations are safe to deboard and ensuring they are never truly alone in a compartment through AI-simulated constable requests.
-
+The main objective is to provide women with predictive safety data. By knowing station safety indices and using AI-simulated compartment analysis, women can make informed travel decisions and instantly connect with authorities when needed.
 ---
 
 ## 🛠 Technologies Used
 
-* **Frontend:** HTML5, CSS3 (Modern UI with Soft Shadows)
+* **Frontend:** Vite, React, TypeScript 
 * **Logic:** JavaScript (ES6+)
-* **Maps:** Leaflet.js / OpenStreetMap (for Safe Spots)
-* **Animations:** CSS Keyframes & Transitons
-* **Data Handling:** Browser LocalStorage (Mock Database)
-* **Design:** Google Fonts (Montserrat/Poppins)
+* **Backend & Data:** Python (Flask), MongoDB
+* **Version Control:** Git/GitHub
+* **Computer Vision:** YOLO (You Only Look Once) for real-time object detection and crowd analysis.
+* **Data Analysis:** Pandas (for processing Mumbai local station datasets).
 
 ---
 
