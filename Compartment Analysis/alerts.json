@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1758310618,
+    "time": 1758310618,
+    "train": "Mumbai Local",
+    "compartment": "B1",
+    "lat": "19.118783",
+    "lon": "73.004323",
+    "people_count": 8,
+    "status": "unsafe",
+    "message": "\u26a0\ufe0f Unsafe: 8 people. Constable requested.",
+    "image": "1758310618_360_F_484873483_hg1ofIdXbMha5lKEDG3hJBrwKh1oikTq.jpg"
+  },
+  {
+    "id": 1758302741,
+    "time": 1758302741,
+    "train": "Mumbai Local",
+    "compartment": "B1",
+    "lat": "19.118783",
+    "lon": "73.004323",
+    "people_count": 6,
+    "status": "unsafe",
+    "message": "\u26a0\ufe0f Unsafe: 6 people. Constable requested.",
+    "image": "1758302741_IMG-20250402-WA0148.jpg"
+  },
+  {
+    "id": 1758302599,
+    "time": 1758302599,
+    "train": "Mumbai Local",
+    "compartment": "B1",
+    "lat": "19.118783",
+    "lon": "73.004323",
+    "people_count": 6,
+    "status": "unsafe",
+    "message": "\u26a0\ufe0f Unsafe: 6 people. Constable requested.",
+    "image": "1758302599_IMG-20250402-WA0148.jpg"
+  },
+  {
+    "id": 1758302572,
+    "time": 1758302572,
+    "train": "Mumbai Local",
+    "compartment": "B1",
+    "lat": "19.118783",
+    "lon": "73.004323",
+    "people_count": 6,
+    "status": "unsafe",
+    "message": "\u26a0\ufe0f Unsafe: 6 people. Constable requested.",
+    "image": "1758302572_IMG-20250402-WA0148.jpg"
+  },
+  {
+    "id": 1758302370,
+    "time": 1758302370,
+    "train": "",
+    "compartment": "B1",
+    "lat": "",
+    "lon": "",
+    "people_count": 3,
+    "status": "unsafe",
+    "message": "\ud83d\udea8 Unsafe: Only 3 person(s). Constable dispatched.",
+    "image": "1758302370_Screenshot_2025_07_16_02_32_53_19_99c04817c0de5652397fc8b56c3b3817.jpg"
+  },
+  {
+    "id": 1758301687,
+    "time": 1758301687,
+    "train": "Juinagar",
+    "compartment": "B1",
+    "lat": "19.118600363482194",
+    "lon": "73.00441393131713",
+    "people_count": 2,
+    "status": "SAFE",
+    "image": "1758301687_IMG-20250321-WA0207.jpg"
+  }
+]
