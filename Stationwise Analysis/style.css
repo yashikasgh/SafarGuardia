@@ -31,7 +31,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* --- THIS IS THE UPDATED SECTION --- */
 #stationInput {
     box-sizing: border-box;
     width: 100%;
@@ -40,15 +39,13 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
 
-    /* Add a dropdown arrow icon to look like a select box */
-    appearance: none; /* Remove default appearance */
+    appearance: none; 
     background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20256%22%3E%3Cpath%20fill%3D%22%23888888%22%20d%3D%22M215.39%2092.61a8%208%200%2000-11.32%200L128%20168.69%2051.94%2092.61a8%208%200%2000-11.32%2011.31l82.05%2082.06a8%208%200%200011.32%200l82.05-82.06a8%208%200%20000-11.31z%22%2F%3E%3C%2Fsvg%3E');
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 16px;
-    padding-right: 35px; /* Make space for the arrow */
+    padding-right: 35px; 
 }
-/* --- END OF UPDATED SECTION --- */
 
 #analysisBtn {
     padding: 10px 20px;
@@ -134,4 +131,5 @@ th {
 .autocomplete-active {
     background-color: DodgerBlue !important;
     color: #ffffff;
+
 }
