@@ -9,11 +9,10 @@ from flask import Flask, jsonify, request, render_template
 import pandas as pd
 
 
-# --- App Initialization ---
+
 app = Flask(__name__)
 
 
-# --- Data Loading and Processing ---
 
 def load_data(path="mumbai_local.csv"):
     """
@@ -37,7 +36,6 @@ def load_data(path="mumbai_local.csv"):
 main_df = load_data()
 
 
-# --- Main Web Page Route ---
 
 @app.route("/")
 def home():
@@ -45,7 +43,6 @@ def home():
     return render_template('index.html')
 
 
-# --- API Routes ---
 
 @app.route("/api/stations")
 def get_stations():
@@ -79,8 +76,7 @@ def get_station_analysis():
     return jsonify(station_data.to_dict(orient='records'))
 
 
-# --- Start the Server ---
 
 if __name__ == "__main__":
-    # The port is set to 5001 to avoid conflicts
+
     app.run(debug=True, port=5001)
